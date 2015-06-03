@@ -1,10 +1,10 @@
-name,code
-Acadian,Acadian
-Atlantic Maritime,AM
-Boreal Cordillera,BC
-Boreal Plain,BP
-Eastern Boreal Shield,BSE
-Montane Cordillera,MC
-Pacific Maritime,PM
-Taiga Plain,TP
-Western Boreal Shield,BSW
+name,code,Fire,Harvesting,Spruce Budworm,note
+Acadian,Acadian,0,1,1,Side project
+Atlantic Maritime,AM,1,1,1,
+Boreal Cordillera,BC,NA,NA,NA,
+Boreal Plain,BP,1,1,0,
+Eastern Boreal Shield,BSE,1,1,1,
+Montane Cordillera,MC,NA,NA,NA,
+Pacific Maritime,PM,NA,NA,NA,
+Taiga Plain,TP,NA,NA,NA,
+Western Boreal Shield,BSW,NA,NA,NA,
