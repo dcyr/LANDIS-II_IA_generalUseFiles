@@ -17,7 +17,7 @@ Code,commonName,scientificShort,scientificLong,Farrar1995.,lifeForm,LandisCode,r
 205,Shore pine,,Pinus contorta var. contorta,61,ST,PINU.CON.CON,0,NA,0,0,0,0,0,0
 206,Whitebark pine,,Pinus albicaulis Engelm.,48,Sh-ST,PINU.ALB,0,Pinus_albicaulis,0,0,0,0,0,1
 207,Austrian pine *,,Pinus nigra Arnold,64,MT,NA,NA,NA,0,0,0,0,0,0
-208,Ponderosa pine,,Pinus ponderosa P. Laws. ex C. Laws.,52,LT,PINU.PON,0,Pinus_londerosa,0,0,0,0,0,1
+208,Ponderosa pine,,Pinus ponderosa P. Laws. ex C. Laws.,52,LT,PINU.PON,0,Pinus_ponderosa,0,0,0,0,0,1
 209,Red pine,Pinus resinosa,Pinus resinosa Ait.,56,MT,PINU.RES,0,Pinus_resinosa,1,1,1,0,1,0
 210,Pitch pine,,Pinus rigida Mill.,54,ST,NA,NA,NA,0,0,0,0,0,0
 211,Scots pine **,,Pinus sylvestris L.,62,MT,NA,NA,NA,0,0,0,0,0,0
