@@ -1,11 +1,12 @@
 name,code,Fire,Harvesting,Spruce Budworm,note
-Acadian,Acadian,0,1,1,Side project - Results not shown
-Atlantic Maritime,AM,1,1,1,
-Boreal Cordillera,BC,NA,NA,NA,
-Boreal Plain,BP,1,1,0,
-Eastern Boreal Shield,BSE,1,1,1,
-Montane Cordillera,MC,NA,NA,NA,
-Pacific Maritime,PM,NA,NA,NA,
-Taiga Plain,TP,NA,NA,NA,
-Western Boreal Shield,BSW,1,1,1,
-Lac Saint-Jean,LSJ,,,,
+Acadian,Acadian,0,1,1,Side project
+Atlantic Maritime,AM,1,1, ,IA - Chap.4
+Boreal Cordillera,BC,NA,NA,NA,IA - Chap.4
+Boreal Plain,BP,1,1,0,IA - Chap.4
+Eastern Boreal Shield,BSE,1,1,1,IA - Chap.4
+Montane Cordillera,MC,NA,NA,NA,IA - Chap.4
+Pacific Maritime,PM,NA,NA,NA,IA - Chap.4
+Taiga Plain,TP,NA,NA,NA,IA - Chap.4
+Western Boreal Shield,BSW,1,1,1,IA - Chap.4
+Lac Saint-Jean,LSJ,,,,CBFA project
+Western Ontario,WestON,,,,CBFA project
