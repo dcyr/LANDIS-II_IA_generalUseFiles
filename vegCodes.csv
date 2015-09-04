@@ -65,7 +65,7 @@ NA,Rocky Mountain Douglas-fir,,and Pseudotsuga menziesii var. glauca (Beissn.) F
 1200,Poplar/aspen,Populus sp.,Populus,335,NA,POPU.SPP,NA,Populus_sp,0,0,0,0,0,0,0,0
 1201,Trembling aspen,Populus tremuloides,Populus tremuloides Michx.,346,MT,POPU.TRE,0,Populus_tremuloides,1,1,1,1,1,1,1,1
 1202,European white poplar *,,Populus alba L.,351,LT,NA,NA,NA,0,0,0,0,0,0,0,0
-1203,Balsam poplar,Populus balsamifera,Populus balsamifera L.,340,MT,POPU.BAL,0,Populus_balsamifera,0,0,1,1,1,0,0,0
+1203,Balsam poplar,Populus balsamifera,Populus balsamifera L.,340,MT,POPU.BAL,0,Populus_balsamifera,0,1,1,1,1,0,0,0
 1204,Black cottonwood,,Populus trichocarpa Torr. & A. Gray,338,LT,NA,NA,NA,0,0,0,0,0,0,0,0
 1205,Eastern cottonwood,,Populus deltoides Bartr. ex Marsh. ssp. deltoides,344,MT-LT,NA,NA,NA,0,0,0,0,0,0,0,0
 1206,Largetooth aspen,,Populus grandidentata Michx.,348,ST,POPU.GRA,0,Populus_grandidentata,0,0,0,0,0,0,0,0
