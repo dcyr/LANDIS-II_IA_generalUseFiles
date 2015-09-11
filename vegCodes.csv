@@ -1,9 +1,9 @@
-Code,commonName,scientificShort,scientificLong,Farrar1995.,lifeForm,LandisCode,repVeg,picusName,BSE,AM,BSW,BP,Acadian,MC,LSJ,WestON
+Code,commonName,scientificShort,scientificLong,Farrar1995.,lifeForm,LandisCode,repVeg,picusRef,BSE,AM,BSW,BP,Acadian,MC,LSJ,WestON
 100,Spruce,,Picea,95,NA,NA,NA,NA,0,0,0,0,0,0,0,0
 101,Black spruce,Picea mariana,Picea mariana (Mill.) BSP,106,ST-MT,PICE.MAR,0,Picea_mariana,1,1,1,1,1,1,1,1
 102,Red spruce,Picea rubens,Picea rubens Sarg.,104,MT,PICE.RUB,0,Picea_rubens,1,1,0,0,1,0,1,0
 103,Norway spruce *,,Picea abies (L.) Karst.,108,LT,NA,NA,NA,0,0,0,0,0,0,0,0
-104,Engelmann spruce,,Picea engelmannii Parry ex Engelm.,100,LT (-VLT),PICE.ENG,0,Picea_engelmannii,0,0,0,0,0,1,0,0
+104,Engelmann spruce,Picea engelmannii,Picea engelmannii Parry ex Engelm.,100,LT (-VLT),PICE.ENG,0,Picea_engelmannii,0,0,0,0,0,1,0,0
 105,White spruce,Picea glauca,Picea glauca (Moench) Voss,102,MT,PICE.GLA,0,Picea_glauca,1,1,1,1,1,0,1,1
 106,Sitka spruce,,Picea sitchensis (Bong.) Carriﾊre,98,VLT,PICE.SIT,0,NA,0,0,0,0,0,0,0,0
 107,Black and red spruce,,Picea mariana (Mill.) BSP and Picea rubens Sarg.,NA,NA,NA,NA,NA,0,0,0,0,0,0,0,0
@@ -13,11 +13,11 @@ Code,commonName,scientificShort,scientificLong,Farrar1995.,lifeForm,LandisCode,r
 201,Western white pine,,Pinus monticola Dougl. ex D. Don,46,VLT,PINU.MON,0,NA,0,0,0,0,0,0,0,0
 202,Eastern white pine,Pinus strobus,Pinus strobus L.,44,MT,PINU.STR,0,Pinus_strobus,1,1,1,0,1,0,1,1
 203,Jack pine,Pinus banksiana,Pinus banksiana Lamb.,58,ST,PINU.BAN,0,Pinus_banksiana,1,1,1,1,1,0,1,1
-204,Lodgepole pine,,Pinus contorta Dougl. ex Loud. var. latifolia Engelm.,60,MT,PINU.CON.LAT,0,Pinus_contorta,0,0,0,0,0,1,0,0
+204,Lodgepole pine,Pinus contorta,Pinus contorta Dougl. ex Loud. var. latifolia Engelm.,60,MT,PINU.CON.LAT,0,Pinus_contorta,0,0,0,0,0,1,0,0
 205,Shore pine,,Pinus contorta var. contorta,61,ST,PINU.CON.CON,0,NA,0,0,0,0,0,0,0,0
-206,Whitebark pine,,Pinus albicaulis Engelm.,48,Sh-ST,PINU.ALB,0,Pinus_albicaulis,0,0,0,0,0,1,0,0
+206,Whitebark pine,Pinus albicaulis,Pinus albicaulis Engelm.,48,Sh-ST,PINU.ALB,0,Pinus_albicaulis,0,0,0,0,0,1,0,0
 207,Austrian pine *,,Pinus nigra Arnold,64,MT,NA,NA,NA,0,0,0,0,0,0,0,0
-208,Ponderosa pine,,Pinus ponderosa P. Laws. ex C. Laws.,52,LT,PINU.PON,0,Pinus_ponderosa,0,0,0,0,0,1,0,0
+208,Ponderosa pine,Pinus ponderosa,Pinus ponderosa P. Laws. ex C. Laws.,52,LT,PINU.PON,0,Pinus_ponderosa,0,0,0,0,0,1,0,0
 209,Red pine,Pinus resinosa,Pinus resinosa Ait.,56,MT,PINU.RES,0,Pinus_resinosa,1,1,1,0,1,0,1,1
 210,Pitch pine,,Pinus rigida Mill.,54,ST,NA,NA,NA,0,0,0,0,0,0,0,0
 211,Scots pine **,,Pinus sylvestris L.,62,MT,NA,NA,NA,0,0,0,0,0,0,0,0
@@ -27,10 +27,10 @@ Code,commonName,scientificShort,scientificLong,Farrar1995.,lifeForm,LandisCode,r
 NA,NA,,and Pinus contorta var. contorta,NA,NA,NA,NA,NA,0,0,0,0,0,0,0,0
 215,Other pine,,NA,NA,NA,NA,NA,NA,0,0,0,0,0,0,0,0
 300,Fir,,Abies,81,NA,NA,NA,NA,0,0,0,0,0,0,0,0
-301,Amabilis fir,,Abies amabilis (Dougl. ex Loud.) Dougl. ex. J. Forbes,88,LT,ABIE.AMA,0,Abies_amabilis,0,0,0,0,0,1,0,0
+301,Amabilis fir,Abies amabilis,Abies amabilis (Dougl. ex Loud.) Dougl. ex. J. Forbes,88,LT,ABIE.AMA,0,Abies_amabilis,0,0,0,0,0,1,0,0
 302,Balsam fir,Abies balsamea,Abies balsamea (L.) Mill.,84,MT,ABIE.BAL,0,Abies_balsamea,1,1,1,0,1,1,1,1
-303,Grand fir,,Abies grandis (Dougl. ex D. Don) Lindl.,90,MT-LT,ABIE.GRA,0,Abies_grandis,0,0,0,0,0,1,0,0
-304,Subalpine fir (or alpine fir),,Abies lasiocarpa (Hook.) Nutt.,86,MT-LT,ABIE.LAS,0,Abies_lasiocarpa,0,0,0,0,0,1,0,0
+303,Grand fir,Abies grandis,Abies grandis (Dougl. ex D. Don) Lindl.,90,MT-LT,ABIE.GRA,0,Abies_grandis,0,0,0,0,0,1,0,0
+304,Subalpine fir (or alpine fir),Abies lasiocarpa,Abies lasiocarpa (Hook.) Nutt.,86,MT-LT,ABIE.LAS,0,Abies_lasiocarpa,0,0,0,0,0,1,0,0
 305,Balsam and alpine fir,,Abies balsamea (L.) Mill. and Abies lasiocarpa (Hook.) Nutt.,NA,NA,NA,NA,NA,0,0,0,0,0,0,0,0
 306,"Alpine, amabilis, and grand fir",,"Abies lasiocarpa (Hook.) Nutt., Abies amabilis (Dougl. ex Loud.) Dougl. ex. J. Forbes,",NA,NA,NA,NA,NA,0,0,0,0,0,0,0,0
 NA,NA,,and Abies grandis (Dougl. ex D. Don) Lindl.,NA,NA,NA,NA,NA,0,0,0,0,0,0,0,0
@@ -38,20 +38,20 @@ NA,NA,,and Abies grandis (Dougl. ex D. Don) Lindl.,NA,NA,NA,NA,NA,0,0,0,0,0,0,0,
 321,Balsam fir and spruce,,Abies balsamea (L.) Mill. and Picea,NA,NA,NA,NA,NA,0,0,0,0,0,0,0,0
 400,Hemlock,,Tsuga,114,NA,NA,NA,NA,0,0,0,0,0,0,0,0
 401,Eastern hemlock,Tsuga canadensis,Tsuga canadensis (L.) Carriﾊre,120,MT,TSUG.CAN,0,Tsuga_canadensis,1,1,0,0,1,0,1,0
-402,Western hemlock,,Tsuga heterophylla (Raf.) Sarg.,116,VLT,TSUG.HET,0,Tsuga_heterophylla,0,0,0,0,0,1,0,0
-403,Mountain hemlock,,Tsuga mertensiana (Bong.) Carriﾊre,118,ST-LT,TSUG.MER,0,Tsuga_mertensiana,0,0,0,0,0,1,0,0
+402,Western hemlock,Tsuga heterophylla,Tsuga heterophylla (Raf.) Sarg.,116,VLT,TSUG.HET,0,Tsuga_heterophylla,0,0,0,0,0,1,0,0
+403,Mountain hemlock,Tsuga mertensiana,Tsuga mertensiana (Bong.) Carriﾊre,118,ST-LT,TSUG.MER,0,Tsuga_mertensiana,0,0,0,0,0,1,0,0
 404,Western and mountain hemlock,,Tsuga heterophylla (Raf.) Sarg. and Tsuga mertensiana (Bong.) Carriﾊre,NA,NA,NA,NA,NA,0,0,0,0,0,0,0,0
 500,Douglas-fir and,,"Pseudotsuga menziesii  var. menziesii(Mirb.) Franco,",110,VLT,PSEU.MEN,NA,Pseudotsuga_menziesii,0,0,0,0,0,1,0,0
 NA,Rocky Mountain Douglas-fir,,and Pseudotsuga menziesii var. glauca (Beissn.) Franco,113,LT,NA,NA,NA,0,0,0,0,0,0,0,0
 600,Tamarack/larch,,Larix,67,NA,NA,NA,NA,0,0,0,0,0,0,0,0
 601,European larch **,,Larix decidua Mill.,76,MT,NA,NA,NA,0,0,0,0,0,0,0,0
 602,Tamarack,Larix laricina,Larix laricina (Du Roi) K. Koch,74,MT,LARI.LAR,0,Larix_laricina,1,1,1,1,1,0,1,1
-603,Western larch,,Larix occidentalis Nutt.,70,VLT,LARI.OCC,0,Larix_occidentalis,0,0,0,0,0,1,0,0
+603,Western larch,Larix occidentalis,Larix occidentalis Nutt.,70,VLT,LARI.OCC,0,Larix_occidentalis,0,0,0,0,0,1,0,0
 604,Subalpine larch,,Larix lyallii Parl.,72,ST,LARI.LYA,0,NA,0,0,0,0,0,0,0,0
 605,Japanese larch*,,Larix kaempferi (Lamb.) Carriﾊre,76,MT,NA,NA,NA,0,0,0,0,0,0,0,0
 700,Cedar,,Thuja,22,NA,NA,NA,NA,0,0,0,0,0,0,0,0
 701,Eastern white-cedar,Thuja occidentalis,Thuja occidentalis L.,26,ST,THUJ.SPP.ALL,1,Thuja_occidentalis,1,1,1,0,1,0,1,1
-702,Western redcedar,,Thuja plicata Donn ex D. Don,24,VLT,THUJ.PLI,0,Thuja_plicata,0,0,0,0,0,1,0,0
+702,Western redcedar,Thuja plicata,Thuja plicata Donn ex D. Don,24,VLT,THUJ.PLI,0,Thuja_plicata,0,0,0,0,0,1,0,0
 703,Cedar and other conifers,,NA,NA,NA,NA,NA,NA,0,0,0,0,0,0,0,0
 800,Juniper (cedar),,Juniperus,16,NA,NA,NA,NA,0,0,0,0,0,0,0,0
 801,Eastern redcedar,,Juniperus virginiana L.,20,VST,NA,NA,NA,0,0,0,0,0,0,0,0
@@ -65,10 +65,10 @@ NA,Rocky Mountain Douglas-fir,,and Pseudotsuga menziesii var. glauca (Beissn.) F
 1200,Poplar/aspen,Populus sp.,Populus,335,NA,POPU.SPP,NA,Populus_sp,0,0,0,0,0,0,0,0
 1201,Trembling aspen,Populus tremuloides,Populus tremuloides Michx.,346,MT,POPU.TRE,0,Populus_tremuloides,1,1,1,1,1,1,1,1
 1202,European white poplar *,,Populus alba L.,351,LT,NA,NA,NA,0,0,0,0,0,0,0,0
-1203,Balsam poplar,Populus balsamifera,Populus balsamifera L.,340,MT,POPU.BAL,0,Populus_balsamifera,0,1,1,1,1,0,0,0
+1203,Balsam poplar,Populus balsamifera,Populus balsamifera L.,340,MT,POPU.BAL,0,Populus_tremuloides,0,1,1,1,1,0,0,0
 1204,Black cottonwood,,Populus trichocarpa Torr. & A. Gray,338,LT,NA,NA,NA,0,0,0,0,0,0,0,0
 1205,Eastern cottonwood,,Populus deltoides Bartr. ex Marsh. ssp. deltoides,344,MT-LT,NA,NA,NA,0,0,0,0,0,0,0,0
-1206,Largetooth aspen,,Populus grandidentata Michx.,348,ST,POPU.GRA,0,Populus_grandidentata,0,0,0,0,0,0,0,0
+1206,Largetooth aspen,Populus grandidentata,Populus grandidentata Michx.,348,ST,POPU.GRA,0,Populus_grandidentata,0,0,0,0,0,0,0,0
 1207,Carolina poplar *,,Populus ??canadensis Moench cv. Eugenei,351,..,NA,NA,NA,0,0,0,0,0,0,0,0
 1208,Lombardy poplar *,,Populus nigra L. cv. Italica,350,..,NA,NA,NA,0,0,0,0,0,0,0,0
 1209,Hybrid poplar,,Populus sp. ? Populus  sp.,..,..,NA,NA,NA,0,0,0,0,0,0,0,0
@@ -144,8 +144,8 @@ NA,Rocky Mountain Douglas-fir,,and Pseudotsuga menziesii var. glauca (Beissn.) F
 3203,Alternate-leaf dogwood,,Cornus alternifolia L. f.,184,LSh-VST,NA,NA,NA,0,0,0,0,0,0,0,0
 3300,Arbutus,,Arbutus menziesii Pursh,396,ST,NA,NA,NA,0,0,0,0,0,0,0,0
 3400,Ash,,Fraxinus spp,160,NA,NA,NA,NA,0,0,0,0,0,0,0,0
-3401,White ash,,Fraxinus americana L.,162,MT,FRAX.AME,NA,Fraxinus_americana,0,0,0,0,1,0,0,0
-3402,Black ash,,Fraxinus nigra Marsh.,166,ST,FRAX.NIG,NA,Fraxinus_nigra,0,0,0,0,0,0,0,1
+3401,White ash,Fraxinus americana,Fraxinus americana L.,162,MT,FRAX.AME,NA,Fraxinus_americana,0,0,0,0,1,0,0,0
+3402,Black ash,Fraxinus nigra,Fraxinus nigra Marsh.,166,ST,FRAX.NIG,NA,Fraxinus_nigra,0,0,0,0,0,0,0,1
 3403,Red ash,,Fraxinus pennsylvanica Marsh.,164,ST-MT,NA,NA,NA,0,0,0,0,0,0,0,0
 3404,Northern red ash,,Fraxinus pennsylvanica var. austini Fern.,165,ST-MT,NA,NA,NA,0,0,0,0,0,0,0,0
 3405,Green ash,,Fraxinus pennsylvanica var. subintegerrima (Vahl) Fern.,165,ST-MT,NA,NA,NA,0,0,0,0,0,0,0,0
