@@ -1,13 +1,13 @@
 name,code,Fire,Harvesting,Spruce Budworm,note
 Acadian,Acadian,0,1,1,Side project
-Atlantic Maritime,AM,1,1, ,Integrated Assessment
-Boreal Cordillera,BC,NA,NA,NA,Integrated Assessment
-Boreal Plain,BP,1,1,0,Integrated Assessment
-Eastern Boreal Shield,BSE,1,1,1,Integrated Assessment
-Montane Cordillera,MC,NA,NA,NA,Integrated Assessment
-Pacific Maritime,PM,NA,NA,NA,Integrated Assessment
-Taiga Plain,TP,NA,NA,NA,Integrated Assessment
-Western Boreal Shield,BSW,1,1,1,Integrated Assessment
-Lac Saint-Jean,LSJ,,,,CBFA project
+Atlantic Maritime,AM,1,1, ,Forest Change (IA-C4)
+Boreal Cordillera,BC,NA,NA,NA,Forest Change (IA-C4)
+Boreal Plain,BP,1,1,0,Forest Change (IA-C4)
+Eastern Boreal Shield,BSE,1,1,1,Forest Change (IA-C4)
+Montane Cordillera,MC,NA,NA,NA,Forest Change (IA-C4)
+Pacific Maritime,PM,NA,NA,NA,Forest Change (IA-C4)
+Taiga Plain,TP,NA,NA,NA,Forest Change (IA-C4)
+Western Boreal Shield,BSW,1,1,1,Forest Change (IA-C4)
+Lac Saint-Jean,LSJ,1,1,1,CBFA project
 Western Ontario,WestON,,,,CBFA project
-Eastern Boreal Shield (Boreal only),BSEmod,1,1,1,Integrated Assessment
+Eastern Boreal Shield (Boreal only),BSEmod,1,1,1,Forest Change (IA-C4)
