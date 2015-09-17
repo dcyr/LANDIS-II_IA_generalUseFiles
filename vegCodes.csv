@@ -41,7 +41,7 @@ NA,NA,,and Abies grandis (Dougl. ex D. Don) Lindl.,NA,NA,NA,NA,NA,0,0,0,0,0,0,0,
 402,Western hemlock,Tsuga heterophylla,Tsuga heterophylla (Raf.) Sarg.,116,VLT,TSUG.HET,0,Tsuga_heterophylla,0,0,0,0,0,1,0,0
 403,Mountain hemlock,Tsuga mertensiana,Tsuga mertensiana (Bong.) Carriﾊre,118,ST-LT,TSUG.MER,0,Tsuga_mertensiana,0,0,0,0,0,1,0,0
 404,Western and mountain hemlock,,Tsuga heterophylla (Raf.) Sarg. and Tsuga mertensiana (Bong.) Carriﾊre,NA,NA,NA,NA,NA,0,0,0,0,0,0,0,0
-500,Douglas-fir and,,"Pseudotsuga menziesii  var. menziesii(Mirb.) Franco,",110,VLT,PSEU.MEN,NA,Pseudotsuga_menziesii,0,0,0,0,0,1,0,0
+500,Douglas-fir,Pseudotsuga menziesii,"Pseudotsuga menziesii  var. menziesii(Mirb.) Franco,",110,VLT,PSEU.MEN,NA,Pseudotsuga_menziesii,0,0,0,0,0,1,0,0
 NA,Rocky Mountain Douglas-fir,,and Pseudotsuga menziesii var. glauca (Beissn.) Franco,113,LT,NA,NA,NA,0,0,0,0,0,0,0,0
 600,Tamarack/larch,,Larix,67,NA,NA,NA,NA,0,0,0,0,0,0,0,0
 601,European larch **,,Larix decidua Mill.,76,MT,NA,NA,NA,0,0,0,0,0,0,0,0
