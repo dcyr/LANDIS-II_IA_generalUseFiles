@@ -1,20 +1,20 @@
 "Code","commonName","scientificShort","scientificLong","Farrar1995.","lifeForm","LandisCode","repVeg","picusRef","color","BSE","AM","BSW","BP","Acadian","MC","LSJ","WestON"
-301,"Amabilis fir","Abies amabilis","Abies amabilis (Dougl. ex Loud.) Dougl. ex. J. Forbes","88","LT","ABIE.AMA",0,"Abies_amabilis","#283316",0,0,0,0,0,0,0,0
-302,"Balsam fir","Abies balsamea","Abies balsamea (L.) Mill.","84","MT","ABIE.BAL",0,"Abies_balsamea","#435525",1,1,1,0,1,0,1,1
-303,"Grand fir","Abies grandis","Abies grandis (Dougl. ex D. Don) Lindl.","90","MT-LT","ABIE.GRA",0,"Abies_grandis","#5E7734",0,0,0,0,0,0,0,0
-304,"Subalpine fir (or alpine fir)","Abies lasiocarpa","Abies lasiocarpa (Hook.) Nutt.","86","MT-LT","ABIE.LAS",0,"Abies_lasiocarpa","#799943",0,0,0,0,0,1,0,0
-1403,"Bigleaf maple","","Acer macrophyllum Pursh","138","MT","ACER.MAC",NA,NA,"#330000",0,0,0,0,0,0,0,0
-1405,"Red maple","Acer rubrum","Acer rubrum L.","140","MT","ACER.RUB",1,"Acer_rubrum","#660000",1,1,0,0,1,0,1,1
-1401,"Sugar maple","Acer saccharum","Acer saccharum Marsh.","134","MT-LT","ACER.SAH",1,"Acer_saccharum","#990000",1,1,0,0,1,0,1,1
+301,"Amabilis fir","Abies amabilis","Abies amabilis (Dougl. ex Loud.) Dougl. ex. J. Forbes","88","LT","ABIE.AMA",0,"Abies_amabilis","#51662D",0,0,0,0,0,0,0,0
+302,"Balsam fir","Abies balsamea","Abies balsamea (L.) Mill.","84","MT","ABIE.BAL",0,"Abies_balsamea","#6C883C",1,1,1,0,1,0,1,1
+303,"Grand fir","Abies grandis","Abies grandis (Dougl. ex D. Don) Lindl.","90","MT-LT","ABIE.GRA",0,"Abies_grandis","#87AA4B",0,0,0,0,0,0,0,0
+304,"Subalpine fir (or alpine fir)","Abies lasiocarpa","Abies lasiocarpa (Hook.) Nutt.","86","MT-LT","ABIE.LAS",0,"Abies_lasiocarpa","#A1CC5A",0,0,0,0,0,1,0,0
+1403,"Bigleaf maple","","Acer macrophyllum Pursh","138","MT","ACER.MAC",NA,NA,"#660000",0,0,0,0,0,0,0,0
+1405,"Red maple","Acer rubrum","Acer rubrum L.","140","MT","ACER.RUB",1,"Acer_rubrum","#990000",1,1,0,0,1,0,1,1
+1401,"Sugar maple","Acer saccharum","Acer saccharum Marsh.","134","MT-LT","ACER.SAH",1,"Acer_saccharum","#CC0000",1,1,0,0,1,0,1,1
 1301,"Yellow birch","Betula alleghaniensis","Betula alleghaniensis Britt.","294","MT","BETU.ALL",1,"Betula_alleghaniensis","#A57D17",1,1,0,0,1,0,1,1
-1303,"White birch","Betula papyrifera","Betula papyrifera Marsh.","284","ST-MT","BETU.PAP",1,"Betula_papyrifera","#332707",1,1,1,1,1,1,1,1
+1303,"White birch","Betula papyrifera","Betula papyrifera Marsh.","284","ST-MT","BETU.PAP",1,"Betula_papyrifera","#664D0E",1,1,1,1,1,1,1,1
 1001,"Yellow cypress","","Chamaecyparis nootkatensis (D. Don) Spach","28","MT (-LT)","CHAM.NOO",NA,NA,"#9AC0CD",0,0,0,0,0,0,0,0
 2000,"Beech","Fagus grandifolia","Fagus grandifolia Ehrh.","268","MT","FAGU.GRA",1,"Fagus_grandifolia","#CD6839",1,1,0,0,1,0,1,0
-3401,"White ash","Fraxinus americana","Fraxinus americana L.","162","MT","FRAX.AME",NA,"Fraxinus_americana","#273327",0,0,0,0,1,0,0,0
-3402,"Black ash","Fraxinus nigra","Fraxinus nigra Marsh.","166","ST","FRAX.NIG",NA,"Fraxinus_nigra","#749974",0,0,0,0,0,0,0,1
+3401,"White ash","Fraxinus americana","Fraxinus americana L.","162","MT","FRAX.AME",NA,"Fraxinus_americana","#4D664D",0,0,0,0,1,0,0,0
+3402,"Black ash","Fraxinus nigra","Fraxinus nigra Marsh.","166","ST","FRAX.NIG",NA,"Fraxinus_nigra","#9ACC9A",0,0,0,0,0,0,0,1
 602,"Tamarack","Larix laricina","Larix laricina (Du Roi) K. Koch","74","MT","LARI.LAR",0,"Larix_laricina","#A59F5C",1,1,1,1,1,0,1,1
-604,"Subalpine larch","","Larix lyallii Parl.","72","ST","LARI.LYA",0,NA,"#6C683D",0,0,0,0,0,0,0,0
-603,"Western larch","Larix occidentalis","Larix occidentalis Nutt.","70","VLT","LARI.OCC",0,"Larix_occidentalis","#33311D",0,0,0,0,0,1,0,0
+604,"Subalpine larch","","Larix lyallii Parl.","72","ST","LARI.LYA",0,NA,"#85814B",0,0,0,0,0,0,0,0
+603,"Western larch","Larix occidentalis","Larix occidentalis Nutt.","70","VLT","LARI.OCC",0,"Larix_occidentalis","#666339",0,0,0,0,0,1,0,0
 100,"Spruce","","Picea","95",NA,NA,NA,NA,NA,0,0,0,0,0,0,0,0
 103,"Norway spruce *","","Picea abies (L.) Karst.","108","LT",NA,NA,NA,NA,0,0,0,0,0,0,0,0
 107,"Black and red spruce","","Picea mariana (Mill.) BSP and Picea rubens Sarg.",NA,NA,NA,NA,NA,NA,0,0,0,0,0,0,0,0
@@ -146,27 +146,27 @@ NA,"Rocky Mountain Douglas-fir","","and Pseudotsuga menziesii var. glauca (Beiss
 3960,"Mountain-ash","","Sorbus genus","222","Sh-ST",NA,NA,NA,NA,0,0,0,0,0,0,0,0
 4000,"Tolerant hardwoods","","Shade tolerant species such as beech, sugar maple, and yellow birch",NA,NA,NA,NA,NA,NA,0,0,0,0,0,0,0,0
 5000,"Intolerant hardwoods","","Shade intolerant species such as trembling aspen and white birch",NA,NA,NA,NA,NA,NA,0,0,0,0,0,0,0,0
-104,"Engelmann spruce","Picea engelmannii","Picea engelmannii Parry ex Engelm.","100","LT (-VLT)","PICE.ENG",0,"Picea_engelmannii","#003300",0,0,0,0,0,1,0,0
-105,"White spruce","Picea glauca","Picea glauca (Moench) Voss","102","MT","PICE.GLA",0,"Picea_glauca","#004D00",1,1,1,1,1,0,1,1
-101,"Black spruce","Picea mariana","Picea mariana (Mill.) BSP","106","ST-MT","PICE.MAR",0,"Picea_mariana","#006600",1,1,1,1,1,1,1,1
-102,"Red spruce","Picea rubens","Picea rubens Sarg.","104","MT","PICE.RUB",0,"Picea_rubens","#007F00",1,1,0,0,1,0,1,0
-106,"Sitka spruce","","Picea sitchensis (Bong.) Carriﾊre","98","VLT","PICE.SIT",0,NA,"#009900",0,0,0,0,0,0,0,0
-206,"Whitebark pine","Pinus albicaulis","Pinus albicaulis Engelm.","48","Sh-ST","PINU.ALB",0,"Pinus_albicaulis","#331907",0,0,0,0,0,0,0,0
-203,"Jack pine","Pinus banksiana","Pinus banksiana Lamb.","58","ST","PINU.BAN",0,"Pinus_banksiana","#422109",1,1,1,1,1,0,1,1
-205,"Shore pine","","Pinus contorta var. contorta","61","ST","PINU.CON.CON",0,NA,"#50280B",0,0,0,0,0,0,0,0
-204,"Lodgepole pine","Pinus contorta","Pinus contorta Dougl. ex Loud. var. latifolia Engelm.","60","MT","PINU.CON.LAT",0,"Pinus_contorta","#5F2F0D",0,0,0,0,0,1,0,0
-201,"Western white pine","","Pinus monticola Dougl. ex D. Don","46","VLT","PINU.MON",0,NA,"#6D360F",0,0,0,0,0,0,0,0
-208,"Ponderosa pine","Pinus ponderosa","Pinus ponderosa P. Laws. ex C. Laws.","52","LT","PINU.PON",0,"Pinus_ponderosa","#7C3D11",0,0,0,0,0,1,0,0
-209,"Red pine","Pinus resinosa","Pinus resinosa Ait.","56","MT","PINU.RES",0,"Pinus_resinosa","#8A4513",1,1,1,0,1,0,1,1
-202,"Eastern white pine","Pinus strobus","Pinus strobus L.","44","MT","PINU.STR",0,"Pinus_strobus","#994C15",1,1,1,0,1,0,1,1
+104,"Engelmann spruce","Picea engelmannii","Picea engelmannii Parry ex Engelm.","100","LT (-VLT)","PICE.ENG",0,"Picea_engelmannii","#002700",0,0,0,0,0,1,0,0
+105,"White spruce","Picea glauca","Picea glauca (Moench) Voss","102","MT","PICE.GLA",0,"Picea_glauca","#005000",1,1,1,1,1,0,1,1
+101,"Black spruce","Picea mariana","Picea mariana (Mill.) BSP","106","ST-MT","PICE.MAR",0,"Picea_mariana","#007A00",1,1,1,1,1,1,1,1
+102,"Red spruce","Picea rubens","Picea rubens Sarg.","104","MT","PICE.RUB",0,"Picea_rubens","#00A300",1,1,0,0,1,0,1,0
+106,"Sitka spruce","","Picea sitchensis (Bong.) Carriﾊre","98","VLT","PICE.SIT",0,NA,"#00CC00",0,0,0,0,0,0,0,0
+206,"Whitebark pine","Pinus albicaulis","Pinus albicaulis Engelm.","48","Sh-ST","PINU.ALB",0,"Pinus_albicaulis","#66330E",0,0,0,0,0,0,0,0
+203,"Jack pine","Pinus banksiana","Pinus banksiana Lamb.","58","ST","PINU.BAN",0,"Pinus_banksiana","#753A10",1,1,1,1,1,0,1,1
+205,"Shore pine","","Pinus contorta var. contorta","61","ST","PINU.CON.CON",0,NA,"#834112",0,0,0,0,0,0,0,0
+204,"Lodgepole pine","Pinus contorta","Pinus contorta Dougl. ex Loud. var. latifolia Engelm.","60","MT","PINU.CON.LAT",0,"Pinus_contorta","#924814",0,0,0,0,0,1,0,0
+201,"Western white pine","","Pinus monticola Dougl. ex D. Don","46","VLT","PINU.MON",0,NA,"#A05016",0,0,0,0,0,0,0,0
+208,"Ponderosa pine","Pinus ponderosa","Pinus ponderosa P. Laws. ex C. Laws.","52","LT","PINU.PON",0,"Pinus_ponderosa","#AF5718",0,0,0,0,0,1,0,0
+209,"Red pine","Pinus resinosa","Pinus resinosa Ait.","56","MT","PINU.RES",0,"Pinus_resinosa","#BD5E1A",1,1,1,0,1,0,1,1
+202,"Eastern white pine","Pinus strobus","Pinus strobus L.","44","MT","PINU.STR",0,"Pinus_strobus","#CC651C",1,1,1,0,1,0,1,1
 1203,"Balsam poplar","Populus balsamifera","Populus balsamifera L.","340","MT","POPU.BAL",0,"Populus_tremuloides","#A59070",0,1,1,1,1,0,0,0
-1206,"Largetooth aspen","Populus grandidentata","Populus grandidentata Michx.","348","ST","POPU.GRA",0,"Populus_grandidentata","#7F6F56",0,0,0,0,0,0,0,0
-1200,"Poplar/aspen","Populus sp.","Populus","335",NA,"POPU.SPP",NA,"Populus_sp","#594E3C",0,0,0,0,0,0,0,0
-1201,"Trembling aspen","Populus tremuloides","Populus tremuloides Michx.","346","MT","POPU.TRE",0,"Populus_tremuloides","#332D23",1,1,1,1,1,1,1,1
+1206,"Largetooth aspen","Populus grandidentata","Populus grandidentata Michx.","348","ST","POPU.GRA",0,"Populus_grandidentata","#907E62",0,0,0,0,0,0,0,0
+1200,"Poplar/aspen","Populus sp.","Populus","335",NA,"POPU.SPP",NA,"Populus_sp","#7B6B53",0,0,0,0,0,0,0,0
+1201,"Trembling aspen","Populus tremuloides","Populus tremuloides Michx.","346","MT","POPU.TRE",0,"Populus_tremuloides","#665945",1,1,1,1,1,1,1,1
 500,"Douglas-fir","Pseudotsuga menziesii","Pseudotsuga menziesii  var. menziesii(Mirb.) Franco,","110","VLT","PSEU.MEN",NA,"Pseudotsuga_menziesii","#8B3E2F",0,0,0,0,0,1,0,0
 2108,"Red oak","Quercus rubra","Quercus rubra L.","248","MT","QUER.RUB",1,"Quercus_rubra","#8B2500",1,0,0,0,1,0,1,0
-702,"Western redcedar","Thuja plicata","Thuja plicata Donn ex D. Don","24","VLT","THUJ.PLI",0,"Thuja_plicata","#332E25",0,0,0,0,0,1,0,0
-701,"Eastern white-cedar","Thuja occidentalis","Thuja occidentalis L.","26","ST","THUJ.SPP.ALL",1,"Thuja_occidentalis","#998B70",1,1,1,0,1,0,1,1
-401,"Eastern hemlock","Tsuga canadensis","Tsuga canadensis (L.) Carriﾊre","120","MT","TSUG.CAN",0,"Tsuga_canadensis","#332100",1,1,0,0,1,0,1,0
-402,"Western hemlock","Tsuga heterophylla","Tsuga heterophylla (Raf.) Sarg.","116","VLT","TSUG.HET",0,"Tsuga_heterophylla","#664200",0,0,0,0,0,1,0,0
-403,"Mountain hemlock","Tsuga mertensiana","Tsuga mertensiana (Bong.) Carriﾊre","118","ST-LT","TSUG.MER",0,"Tsuga_mertensiana","#996300",0,0,0,0,0,1,0,0
+702,"Western redcedar","Thuja plicata","Thuja plicata Donn ex D. Don","24","VLT","THUJ.PLI",0,"Thuja_plicata","#665C4B",0,0,0,0,0,1,0,0
+701,"Eastern white-cedar","Thuja occidentalis","Thuja occidentalis L.","26","ST","THUJ.SPP.ALL",1,"Thuja_occidentalis","#CCB996",1,1,1,0,1,0,1,1
+401,"Eastern hemlock","Tsuga canadensis","Tsuga canadensis (L.) Carriﾊre","120","MT","TSUG.CAN",0,"Tsuga_canadensis","#664200",1,1,0,0,1,0,1,0
+402,"Western hemlock","Tsuga heterophylla","Tsuga heterophylla (Raf.) Sarg.","116","VLT","TSUG.HET",0,"Tsuga_heterophylla","#996300",0,0,0,0,0,1,0,0
+403,"Mountain hemlock","Tsuga mertensiana","Tsuga mertensiana (Bong.) Carriﾊre","118","ST-LT","TSUG.MER",0,"Tsuga_mertensiana","#CC8400",0,0,0,0,0,1,0,0
