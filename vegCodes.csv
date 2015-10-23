@@ -165,8 +165,8 @@ NA,"Rocky Mountain Douglas-fir","","and Pseudotsuga menziesii var. glauca (Beiss
 1201,"Trembling aspen","Populus tremuloides","Populus tremuloides Michx.","346","MT","POPU.TRE",0,"Populus_tremuloides","#E5C89C",1,1,1,1,1,1,1,1
 500,"Douglas-fir","Pseudotsuga menziesii","Pseudotsuga menziesii  var. menziesii(Mirb.) Franco,","110","VLT","PSEU.MEN",NA,"Pseudotsuga_menziesii","#8B3E2F",0,0,0,0,0,1,0,0
 2108,"Red oak","Quercus rubra","Quercus rubra L.","248","MT","QUER.RUB",1,"Quercus_rubra","#8B2500",1,0,0,0,1,0,1,0
-702,"Western redcedar","Thuja plicata","Thuja plicata Donn ex D. Don","24","VLT","THUJ.PLI",0,"Thuja_plicata","#4D4538",0,0,0,0,0,1,0,0
-701,"Eastern white-cedar","Thuja occidentalis","Thuja occidentalis L.","26","ST","THUJ.SPP.ALL",1,"Thuja_occidentalis","#E6D0A8",1,1,1,0,1,0,1,1
+702,"Western redcedar","Thuja plicata","Thuja plicata Donn ex D. Don","24","VLT","THUJ.PLI",0,"Thuja_plicata","#76B3DE",0,0,0,0,0,1,0,0
+701,"Eastern white-cedar","Thuja occidentalis","Thuja occidentalis L.","26","ST","THUJ.SPP.ALL",1,"Thuja_occidentalis","#283E4C",1,1,1,0,1,0,1,1
 401,"Eastern hemlock","Tsuga canadensis","Tsuga canadensis (L.) Carriﾊre","120","MT","TSUG.CAN",0,"Tsuga_canadensis","#4D3200",1,1,0,0,1,0,1,0
 402,"Western hemlock","Tsuga heterophylla","Tsuga heterophylla (Raf.) Sarg.","116","VLT","TSUG.HET",0,"Tsuga_heterophylla","#996300",0,0,0,0,0,1,0,0
 403,"Mountain hemlock","Tsuga mertensiana","Tsuga mertensiana (Bong.) Carriﾊre","118","ST-LT","TSUG.MER",0,"Tsuga_mertensiana","#E69500",0,0,0,0,0,1,0,0
