@@ -6,12 +6,12 @@ LandisData Species
 
 >> ---- --------- -------- ----- ---- --------- ------- ----------- ---------- --------
 
-ABIE.LAS	250	20	5	1	75	100	0	0	0	none
+ABIE.LAS	250	20	4	1	75	100	0	0	0	none
 BETU.PAP	150	20	2	1	200	5000	0.5	10	70	resprout
 LARI.OCC	900	25	1	4	100	250	0	0	0	none
 PICE.ENG	300	30	4	2	175	250	0	0	0	none
 PICE.MAR	200	30	4	2	80	200	0	0	0	serotiny
-PINU.CON.LAT	400	15	1	2	60	200	0	0	0	serotiny
+PINU.CON.LAT	300	15	1	2	60	200	0	0	0	serotiny
 PINU.PON	700	15	2	4	40	100	0	0	0	none
 POPU.TRE	150	20	1	2	1000	5000	0.9	10	150	resprout
 PSEU.MEN	900	25	3	3	100	500	0	0	0	none
