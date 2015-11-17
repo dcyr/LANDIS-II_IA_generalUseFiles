@@ -52,7 +52,7 @@ NA,Rocky Mountain Douglas-fir,,and Pseudotsuga menziesii var. glauca (Beissn.) F
 1100,Other softwoods/other conifers,,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0
 1150,Unspecified softwood species,,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0
 1202,European white poplar *,,Populus alba L.,351,LT,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0
-1204,Black cottonwood,,Populus trichocarpa Torr. & A. Gray,338,LT,POPU.TRI,NA,NA,NA,0,0,0,0,0,0,0,0,1
+1204,Black cottonwood,,Populus trichocarpa Torr. & A. Gray,338,LT,POPU.TRI,NA,NA,NA,0,0,0,0,0,0,0,0,0
 1205,Eastern cottonwood,,Populus deltoides Bartr. ex Marsh. ssp. deltoides,344,MT-LT,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0
 1207,Carolina poplar *,,Populus ??canadensis Moench cv. Eugenei,351,..,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0
 1208,Lombardy poplar *,,Populus nigra L. cv. Italica,350,..,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0
@@ -159,7 +159,7 @@ NA,Rocky Mountain Douglas-fir,,and Pseudotsuga menziesii var. glauca (Beissn.) F
 208,Ponderosa pine,Pinus ponderosa,Pinus ponderosa P. Laws. ex C. Laws.,52,LT,PINU.PON,0,Pinus_ponderosa,#BA5C19,0,0,0,0,0,1,0,0,0
 209,Red pine,Pinus resinosa,Pinus resinosa Ait.,56,MT,PINU.RES,0,Pinus_resinosa,#D0671C,1,1,1,0,1,0,1,1,0
 202,Eastern white pine,Pinus strobus,Pinus strobus L.,44,MT,PINU.STR,0,Pinus_strobus,#E6721F,1,1,1,0,1,0,1,1,0
-1203,Balsam poplar,Populus balsamifera,Populus balsamifera L.,340,MT,POPU.BAL,0,Populus_trichocarpa,#76B3DE,0,1,1,1,1,0,0,0,0
+1203,Balsam poplar,Populus balsamifera,Populus balsamifera L.,340,MT,POPU.BAL,0,Populus_trichocarpa,#76B3DE,0,1,1,1,1,0,0,0,1
 1206,Largetooth aspen,Populus grandidentata,Populus grandidentata Michx.,348,ST,POPU.GRA,0,Populus_grandidentata,#5C8CAE,0,0,0,0,0,0,0,0,0
 1200,Poplar/aspen,Populus sp.,Populus,335,NA,POPU.SPP,NA,Populus_sp,#42657D,0,0,0,0,0,0,0,0,0
 1201,Trembling aspen,Populus tremuloides,Populus tremuloides Michx.,346,MT,POPU.TRE,0,Populus_tremuloides,#283E4C,1,1,1,1,1,1,1,1,1
