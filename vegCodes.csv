@@ -9,7 +9,7 @@ Code,commonName,scientificShort,scientificLong,Farrar1995.,lifeForm,LandisCode,r
 1301,Yellow birch,Betula alleghaniensis,Betula alleghaniensis Britt.,294,MT,BETU.ALL,1,Betula_alleghaniensis,#4D3A0B,1,1,0,0,1,0,1,1,0,0
 1303,White birch,Betula papyrifera,Betula papyrifera Marsh.,284,ST-MT,BETU.PAP,1,Betula_papyrifera,#E5AE20,1,1,1,1,1,1,1,1,1,1
 1001,Yellow cypress,Chamaecyparis nootkatensis,Chamaecyparis nootkatensis (D. Don) Spach,28,MT (-LT),CHAM.NOO,NA,Chamaecyparis_nootkatensis,#9AC0CD,0,0,0,0,0,0,0,0,1,0
-2000,Beech,Fagus grandifolia,Fagus grandifolia Ehrh.,268,MT,FAGU.GRA,1,Fagus_grandifolia,#CD6839,1,1,0,0,1,0,1,0,0,0
+2000,American beech,Fagus grandifolia,Fagus grandifolia Ehrh.,268,MT,FAGU.GRA,1,Fagus_grandifolia,#CD6839,1,1,0,0,1,0,1,0,0,0
 3401,White ash,Fraxinus americana,Fraxinus americana L.,162,MT,FRAX.AME,NA,Fraxinus_americana,#3A4D3A,0,0,0,0,1,0,0,0,0,0
 3402,Black ash,Fraxinus nigra,Fraxinus nigra Marsh.,166,ST,FRAX.NIG,NA,Fraxinus_nigra,#ADE6AD,0,0,0,0,0,0,0,1,0,0
 602,Tamarack,Larix laricina,Larix laricina (Du Roi) K. Koch,74,MT,LARI.LAR,0,Larix_laricina,#4D4A2B,1,1,1,1,1,0,1,1,0,0
