@@ -1,8 +1,8 @@
 Code,commonName,scientificShort,scientificLong,Farrar1995.,lifeForm,LandisCode,repVeg,picusRef,color,BSE,AM,BSW,BP,Acadian,MC,LSJ,WestON,PM,BC
-301,Amabilis fir,Abies amabilis,Abies amabilis (Dougl. ex Loud.) Dougl. ex. J. Forbes,88,LT,ABIE.AMA,0,Abies_amabilis,#3D4D22,0,0,0,0,0,0,0,0,1,1
+301,Pacific silver fir,Abies amabilis,Abies amabilis (Dougl. ex Loud.) Dougl. ex. J. Forbes,88,LT,ABIE.AMA,0,Abies_amabilis,#3D4D22,0,0,0,0,0,0,0,0,1,1
 302,Balsam fir,Abies balsamea,Abies balsamea (L.) Mill.,84,MT,ABIE.BAL,0,Abies_balsamea,#658038,1,1,1,0,1,0,1,1,0,1
 303,Grand fir,Abies grandis,Abies grandis (Dougl. ex D. Don) Lindl.,90,MT-LT,ABIE.GRA,0,Abies_grandis,#8DB34E,0,0,0,0,0,0,0,0,1,0
-304,Subalpine fir (or alpine fir),Abies lasiocarpa,Abies lasiocarpa (Hook.) Nutt.,86,MT-LT,ABIE.LAS,0,Abies_lasiocarpa,#B6E665,0,0,0,0,0,1,0,0,1,1
+304,Subalpine fir,Abies lasiocarpa,Abies lasiocarpa (Hook.) Nutt.,86,MT-LT,ABIE.LAS,0,Abies_lasiocarpa,#B6E665,0,0,0,0,0,1,0,0,1,1
 1403,Bigleaf maple,Acer macrophyllum,Acer macrophyllum Pursh,138,MT,ACER.MAC,NA,Acer_macrophyllum,#4D0000,0,0,0,0,0,0,0,0,1,0
 1405,Red maple,Acer rubrum,Acer rubrum L.,140,MT,ACER.RUB,1,Acer_rubrum,#990000,1,1,0,0,1,0,1,1,0,0
 1401,Sugar maple,Acer saccharum,Acer saccharum Marsh.,134,MT-LT,ACER.SAH,1,Acer_saccharum,#E60000,1,1,0,0,1,0,1,1,0,0
