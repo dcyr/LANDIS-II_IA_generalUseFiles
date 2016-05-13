@@ -1,0 +1,26 @@
+LandisData Scenario 
+
+Duration 100 
+
+Species ..\species_BSE.txt 
+Ecoregions ..\landtypes_BSE.txt 
+EcoregionsMap ..\landtypes_BSE.img 
+
+CellLength 250 << meters, so cell area = 6.25 ha 
+
+>> Succession Extension Initialization File 
+>> -------------------- ------------------- 
+"Biomass Succession" .\biomass-succession-main-inputs.txt 
+
+DisturbancesRandomOrder  yes  << optional parameter; default = no
+>> Disturbance Extensions Initialization File 
+>> ---------------------- ------------------- 
+>>"Base Wind" .\base-wind.txt
+"Base Fire" .\base-fire.txt
+"Biomass Harvest" ..\biomass-harvest_BSE.txt
+
+
+>> Other Extensions         Initialization File
+>> ----------------         -------------------
+"Output Biomass" ..\output-biomass_BSE.txt
+

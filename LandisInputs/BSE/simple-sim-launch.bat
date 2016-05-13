@@ -1,0 +1,3 @@
+landis "./scenario.txt"
+pause
+

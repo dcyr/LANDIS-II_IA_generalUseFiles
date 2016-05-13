@@ -1,0 +1,15 @@
+LandisData "Base BDA"
+
+Timestep	10
+
+MapNames	bda/{agentName}-{timestep}.tif
+
+SRDMapNames	bda/{agentName}-SRD-{timestep}.tif
+
+NRDMapNames	bda/{agentName}-NRD-{timestep}.tif
+
+LogFile		bda/bda-log.csv
+
+BDAInputFiles	mountain_pine_beetle.txt	
+
+BDAInputFiles "G:\YAN\LANDIS\Transects\MO_COR\MPB_BDAInputFiles.txt" 

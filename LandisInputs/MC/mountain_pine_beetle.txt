@@ -1,0 +1,60 @@
+LandisData "BDA Agent"
+
+BDAAgentName		DendroPonderosae
+BDPCalibrator		1		<< integer, parameter "a" in the BDP equation (#2 in user Guide)
+SRDMode			mean		<< max or mean, SRD score based on the mean or max SRD
+>>StartYear 50
+>>EndYear   100
+
+>>-------- Regional Outbreak Inputs -------------
+OutbreakPattern		CyclicUniform	<<CyclicNormal or CyclicUniform ; normal=gaussian around mean ; uniform=between min and max interval
+MaxInterval			40
+MinInterval			40
+TimeSinceLastEpidemic	40		<<years
+TemporalType 		pulse	<<pulse or variablepulse ; pulse=constant ROS ; variablepulse=ROS varying between min and max ROS
+MinROS			0
+MaxROS			3
+
+
+>>-------- Dispersal Inputs ----------------------
+Dispersal		no		<<yes or no
+DispersalRate		4000		<<meters/year
+EpidemicThresh		0.5
+InitialEpicenterNum	0
+OutbreakEpicenterCoeff	0.01
+OutbreakEpicenterThresh 0.0
+SeedEpicenter		yes		<<yes or no
+SeedEpicenterCoeff	0.5
+DispersalTemplate	MaxRadius	<<MaxRadius, 4N,
+					<<8N, 12N, or 24N
+
+>>-------- Neighborhood Resource Inputs -----------
+NeighborFlag	yes			<<yes or no
+NeighborSpeedUp none			<<none, 2x, 3x, or 4x
+NeighborRadius	100			<<meters
+NeighborShape	uniform			<<uniform, linear, or gaussian
+NeighborWeight	0.11			<<  0.01 - 100; parameter "NW" in eq.2; NW=0->only SRD; NW=100->only NRD; NW=0.11->90%SRD; NW=0.25->80%SRD
+
+
+>>-- Intensity Class Thresholds --  determines BDP (biol. disturbance probability) value thresholds for each vulnerability classes
+>>IntensityClass1_BDP 	0.0 -- Hardwired value
+IntensityClass2_BDP 	0.25
+IntensityClass3_BDP 	0.50
+
+
+>>Ecoregion Modifiers << to modify BPD depending on ecoregions (see equation 2)
+
+
+DisturbanceModifiers
+>>SRD Modifer	Duration	Type
+>>    0.33	20		WindSeverity4 WindSeverity5 AspenClearcut
+>>   -0.25	20		Fire MaxAgeClearcut
+
+BDASpeciesParameters << species not listed in table or ignored species will be given a SRD of 0 and included in each site SRD calculation
+>>         -------------Host Value--------------  -------------Susceptibility-------------
+>>Species  MinorHost    2ndHost      MajorHost    Class3        Class2        Class1	    CFS
+>>Name     Age SRDProb  Age SRDProb  Age SRDProb  Age VulnProb  Age VulnProb  Age VulnProb  Conifer?
+>> ---------------------------------------------------------------------------------------------
+PINU.CON.LAT   0   0.1		60  0.6      80  1.0	  0   0.1		60  1.0	      80  1.0		yes		  << MPB's primary host; %mortality and age from Shore & Safranyik 1992
+PINU.PON   0   0.1		60  0.6	     80  1.0	  0   0.1		60  1.0	      80  1.0		yes                
+IgnoredSpecies

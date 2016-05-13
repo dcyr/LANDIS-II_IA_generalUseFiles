@@ -1,0 +1,19 @@
+LandisData Species
+
+>> Sexual Shade Fire Seed Disperal Dist Vegetative Sprout Age Post-Fire
+
+>> Name Longevity Maturity Tol. Tol. Effective Maximum Reprod Prob Min Max Regen
+
+>> ---- --------- -------- ----- ---- --------- ------- ----------- ---------- --------
+
+BETU.PAP 150 20 2 1 200 5000 0.5 10 70 resprout
+PICE.GLA 200 30 3 2 100 303 0 0 0 none
+PICE.MAR 200 30 4 2 80 200 0 0 0 serotiny
+POPU.BAL 130 20 1 2 1000 5000 0.9 10 130 resprout
+POPU.TRE 150 20 1 2 1000 5000 0.9 10 150 resprout
+PICE.ENG 450 30 4 2 30 250 0 0 0 none
+ABIE.LAS 250 20 5 1 75 100 0 0 0 none
+PINU.CON.LAT 400 15 1 2 60 200 0 0 0 serotiny
+TSUG.HET 475 25 5 2 500 1000 0 0 0 none
+TSUG.MER 700 20 4 2 150 500 0 0 0 none
+ABIE.AMA 800 25 5 1 100 150 0 0 0 none

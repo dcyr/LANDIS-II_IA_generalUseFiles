@@ -1,0 +1,352 @@
+LandisData "Biomass Harvest" 
+Timestep 10 
+ManagementAreas ../managementAreas_BSE.tif
+Stands ../standMap_BSE.tif
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>>>>> -----------------------------------------
+>>>>>> PRESCRIPTIONS
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Prescription CPRS
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>   
+	StandRanking 	Economic
+
+	>> Species EconomicRank Minimum Age
+    >> ------- ------------ -----------
+	PICE.MAR		100		20
+	PICE.GLA		100		20
+	PICE.RUB		100		20
+	PINU.STR 		100		20
+	PINU.BAN		100		20
+	PINU.RES		100		20
+	ABIE.BAL		100		20
+	TSUG.CAN		100		20
+	LARI.LAR 		100		20
+	THUJ.SPP.ALL	100		20
+	POPU.TRE		50		20
+	BETU.ALL		50		20
+	BETU.PAP		50		20
+	ACER.SAH		50		20
+	ACER.RUB		50		20
+	FAGU.GRA		50		20
+	QUER.RUB		50		20
+
+
+	
+ 	ForestTypeTable 
+     >> InclusionRule   ageRange    %Cells	species
+     >>--------------------------------------------------------
+	Optional    	    20-999      highest      ABIE.BAL PICE.MAR PICE.GLA PICE.RUB LARI.LAR PINU.BAN
+	Optional    	    20-999      highest      POPU.TRE BETU.PAP
+ 
+
+
+	SiteSelection CompleteStandSpread 15 100 
+
+	CohortsRemoved SpeciesList
+	>> Species Selection
+	>> ------- --------- 
+	ABIE.BAL 11-999(89%)
+	PICE.MAR 11-999(89%)
+	PICE.GLA 11-999(89%)
+	PICE.RUB 11-999(89%)
+	PINU.BAN 11-999(89%)
+	TSUG.CAN 11-999(89%)
+	ACER.SAH 11-999(89%)
+	ACER.RUB 11-999(89%)
+	BETU.ALL 11-999(89%)
+	BETU.PAP 11-999(89%)
+	FAGU.GRA 11-999(89%)
+	QUER.RUB 11-999(89%)
+	PINU.STR 11-999(89%)
+	PINU.RES 11-999(89%)
+	POPU.TRE 11-999(89%)
+	THUJ.SPP.ALL 11-999(89%)
+	LARI.LAR 11-999(89%)
+
+	
+	
+	
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Prescription PartialCut_2
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>   
+
+	StandRanking 	Economic
+
+	>> Species EconomicRank Minimum Age
+    >> ------- ------------ -----------
+	PICE.MAR		100		20
+	PICE.GLA		100		20
+	PICE.RUB		100		20
+	PINU.STR 		100		20
+	PINU.BAN		100		20
+	PINU.RES		100		20
+	ABIE.BAL		100		20
+	TSUG.CAN		100		20
+	LARI.LAR 		100		20
+	THUJ.SPP.ALL	100		20
+	POPU.TRE		50		20
+	BETU.ALL		50		20
+	BETU.PAP		50		20
+	ACER.SAH		50		20
+	ACER.RUB		50		20
+	FAGU.GRA		50		20
+	QUER.RUB		50		20 
+
+	MinimumTimeSinceLastHarvest 35
+	
+	SiteSelection CompleteStandSpread 25 100
+
+	CohortsRemoved SpeciesList
+	>> Species Selection
+	>> ------- --------- 
+	ABIE.BAL 1-999(56%)
+	PICE.MAR 1-999(56%)
+	PICE.GLA 1-999(56%)
+	PICE.RUB 1-999(56%)
+	PINU.BAN 1-999(56%)
+	TSUG.CAN 1-999(56%)
+	ACER.SAH 1-999(56%)
+	ACER.RUB 1-999(56%)
+	BETU.ALL 1-999(56%)
+	BETU.PAP 1-999(56%)
+	FAGU.GRA 1-999(56%)
+	QUER.RUB 1-999(56%)
+	PINU.STR 1-999(56%)
+	PINU.RES 1-999(56%)
+	POPU.TRE 1-999(56%)
+	THUJ.SPP.ALL 1-999(56%)
+	LARI.LAR 1-999(56%)
+
+
+
+	
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Prescription PartialCut_1
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>   
+
+	StandRanking 	Economic
+
+	>> Species EconomicRank Minimum Age
+    >> ------- ------------ -----------
+	PICE.MAR		100		20
+	PICE.GLA		100		20
+	PICE.RUB		100		20
+	PINU.STR 		100		20
+	PINU.BAN		100		20
+	PINU.RES		100		20
+	ABIE.BAL		100		20
+	TSUG.CAN		100		20
+	LARI.LAR 		100		20
+	THUJ.SPP.ALL	100		20
+	POPU.TRE		50		20
+	BETU.ALL		50		20
+	BETU.PAP		50		20
+	ACER.SAH		50		20
+	ACER.RUB		50		20
+	FAGU.GRA		50		20
+	QUER.RUB		50		20 
+
+	MinimumTimeSinceLastHarvest 20
+	
+	SiteSelection CompleteStandSpread 15 100
+
+	CohortsRemoved SpeciesList
+	>> Species Selection
+	>> ------- --------- 
+	ABIE.BAL 1-999(26%)
+	PICE.MAR 1-999(26%)
+	PICE.GLA 1-999(26%)
+	PICE.RUB 1-999(26%)
+	PINU.BAN 1-999(26%)
+	TSUG.CAN 1-999(26%)
+	ACER.SAH 1-999(26%)
+	ACER.RUB 1-999(26%)
+	BETU.ALL 1-999(26%)
+	BETU.PAP 1-999(26%)
+	FAGU.GRA 1-999(26%)
+	QUER.RUB 1-999(26%)
+	PINU.STR 1-999(26%)
+	PINU.RES 1-999(26%)
+	POPU.TRE 1-999(26%)
+	THUJ.SPP.ALL 1-999(26%)
+	LARI.LAR 1-999(26%)
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>-----------------------------------------------------------------
+>> PRESCRIPTION IMPLEMENTATION 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+    HarvestImplementations
+>>  Mgmt Area   Prescription    Harvest Area    Begin Time  End Time
+>>  ---------   ------------    ------------    ----------  --------
+
+246 	CPRS			2.11%
+246 	PartialCut_2 	5.64%
+246		PartialCut_1 	3.91%
+247 	PartialCut_1 	3.86%
+247 	PartialCut_2 	4.4%
+247 	CPRS 			1.29%
+248 	CPRS 			1%
+248 	PartialCut_1 	3.4%
+248 	PartialCut_2 	2.95%
+249		PartialCut_2 	5.29%
+249 	CPRS 			1.97%
+249 	PartialCut_1 	4.03%
+257 	PartialCut_2 	3.71%
+257 	PartialCut_1 	3.71%
+257 	CPRS 			1.28%
+258 	PartialCut_2 	3.56%
+258 	PartialCut_1 	3.15%
+258 	CPRS 			1.5%
+259 	PartialCut_1 	2.67%
+259 	CPRS			0.79%
+259		PartialCut_2 	2.34%
+262 	PartialCut_2 	2.3%
+262		CPRS 			0.83%
+262 	PartialCut_1 	2%
+275 	CPRS 			1.46%
+275 	PartialCut_2 	5.23%
+275 	PartialCut_1 	4.33%
+276 	PartialCut_1 	2.31%
+276 	CPRS 			0.47%
+276 	PartialCut_2 	2.78%
+277 	PartialCut_2 	4.02%
+277 	CPRS 			1.13%
+277 	PartialCut_1 	3.51%
+278 	CPRS 			1.12%
+278 	PartialCut_2 	3.95%
+278 	PartialCut_1	3.04%
+279 	CPRS 			0.46%
+279 	PartialCut_2	1.78%
+279 	PartialCut_1 	1.14%
+280 	CPRS 			1.17%
+280 	PartialCut_2 	3.94%
+280 	PartialCut_1 	2.8%
+281 	PartialCut_1 	4.46%
+281 	CPRS 			2.04%
+281 	PartialCut_2 	5.54%
+282 	PartialCut_1 	4.13%
+282	 	CPRS 			1.58%
+282 	PartialCut_2 	5.03%
+283 	CPRS 			1.24%
+283 	PartialCut_2 	3.5%
+283 	PartialCut_1 	2.77%
+285 	CPRS 			0.01%
+285 	PartialCut_2 	0.18%
+285 	PartialCut_1 	0.28%
+286 	PartialCut_2 	2.66%
+286 	PartialCut_1 	2.46%
+286 	CPRS 			0.59%
+287 	CPRS 			0.25%
+287 	PartialCut_2 	1.73%
+287 	PartialCut_1 	1.94%
+288 	PartialCut_1 	2.42%
+288 	CPRS			0.89%
+288 	PartialCut_2 	3.63%
+289 	CPRS 			0.26%
+289 	PartialCut_2 	1.31%
+289 	PartialCut_1 	1.22%
+290 	PartialCut_1 	0.22%
+290 	PartialCut_2 	0.11%
+290 	CPRS 			0.01%
+291 	PartialCut_1 	1.77%
+291		CPRS 			0.44%
+291 	PartialCut_2 	1.82%
+292 	PartialCut_1 	1.69%
+292 	CPRS 			0.17%
+292 	PartialCut_2 	1.64%
+294 	PartialCut_1 	2.98%
+294 	PartialCut_2 	2.78%
+294 	CPRS 			0.5%
+297 	PartialCut_2 	0.31%
+297 	PartialCut_1 	0.4%
+298 	PartialCut_2 	0.07%
+299 	PartialCut_2 	2.95%
+299 	CPRS 			0.55%
+299 	PartialCut_1 	2.25%
+300 	PartialCut_1 	1.68%
+300 	PartialCut_2 	1.78%
+300 	CPRS			0.2%
+301 	PartialCut_2 	1.17%
+301 	CPRS 			0.19%
+301 	PartialCut_1 	1.2%
+302 	PartialCut_1 	2.03%
+302 	PartialCut_2 	1.92%
+302 	CPRS 			0.22%
+309 	PartialCut_1 	3.54%
+309 	CPRS 			1.55%
+309 	PartialCut_2 	4.19%
+310 	CPRS 			0.6%
+310 	PartialCut_2 	2.2%
+310 	PartialCut_1 	1.9%
+311 	PartialCut_2 	4.88%
+311 	PartialCut_1 	3.87%
+311 	CPRS 			2.37%
+312 	CPRS 			1.26%
+312 	PartialCut_1 	3.67%
+312 	PartialCut_2 	3.58%
+313 	PartialCut_1 	3.2%
+313 	PartialCut_2 	3.69%
+313 	CPRS 			1.25%
+324 	PartialCut_2 	3.24%
+324 	PartialCut_1 	2.57%
+324 	CPRS 			1.47%
+1401 	PartialCut_1 	0.1%
+1414 	CPRS 			0.1%
+1414 	PartialCut_1 	0.1%
+1414 	PartialCut_2 	0.01%
+1415 	CPRS 			0.01%
+1415 	PartialCut_1 	0.06%
+1415 	PartialCut_2 	0.1%
+1416 	CPRS 			0.01%
+1416 	PartialCut_1	0.02%
+1416 	PartialCut_2 	0.02%
+1417 	PartialCut_1 	0.3%
+1417 	PartialCut_2 	0.1%
+1419 	CPRS 			0.02%
+1419 	PartialCut_1 	0.23%
+1419 	PartialCut_2 	0.17%
+1420 	CPRS 			0.04%
+1420 	PartialCut_1 	0.2%
+1420 	PartialCut_2 	0.44%
+1422 	PartialCut_1 	0.22%
+1422 	PartialCut_2 	0.15%
+1423 	CPRS 			0.07%
+1423 	PartialCut_1 	0.28%
+1423 	PartialCut_2 	0.3%
+1424 	CPRS 			0.02%
+1424 	PartialCut_1 	0.06%
+1424 	PartialCut_2 	0.07%
+1425 	PartialCut_1	0.1%
+1425 	PartialCut_2 	0.1%
+1426 	CPRS 			0.01%
+1426 	PartialCut_1 	0.07%
+1426 	PartialCut_2 	0.09%
+1430 	PartialCut_1 	0.21%
+1430 	PartialCut_2 	0.04%
+1431 	PartialCut_2 	0.09%
+1441 	PartialCut_1 	0.1%
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>-----------------------------------------------------------------
+>> OUTPUTS
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+PrescriptionMaps    ./harvest/prescripts-{timestep}.tif
+BiomassMaps			./harvest/biomass-removed-{timestep}.tif
+EventLog            ./harvest/log.csv
+SummaryLog	    	./harvest/summary-log.csv
+
+

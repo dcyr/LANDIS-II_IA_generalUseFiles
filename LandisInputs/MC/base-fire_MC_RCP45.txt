@@ -1,0 +1,52 @@
+LandisData "Base Fire" 
+Timestep 10 
+>> Fire Region Parameters
+>> Fire
+>> Region Map Mean Min Max Ignition
+>> Name Code Size Size Size Prob k
+>> ---------------------------------------------
+ZONE_3_RCP45_0 3 1221 200 23801 1.80229725e-06 65
+ZONE_8_RCP45_0 7 4985 200 149418 7e-06 1
+ZONE_16_RCP45_0 11 2513 200 48461 1.1496361875e-06 30
+ZONE_3_RCP45_10 15 2284 200 23801 2.3147477337345e-06 120
+ZONE_8_RCP45_10 19 5328 200 149418 1.2e-05 1
+ZONE_16_RCP45_10 23 2690 200 48461 1.24561790502981e-06 25
+ZONE_3_RCP45_40 27 3004 200 23801 2.88920112944556e-06 180
+ZONE_8_RCP45_40 31 7423 200 149418 2.3e-05 1
+ZONE_16_RCP45_40 35 4434 200 48461 2.37694378299975e-06 25
+ZONE_3_RCP45_70 39 2989 200 23801 2.97869045566381e-06 180
+ZONE_8_RCP45_70 43 8166 200 149418 2.3e-05 1
+ZONE_16_RCP45_70 47 4414 200 48461 2.34452426974106e-06 25
+InitialFireRegionsMap  "G:/Yan/LANDIS/Transects/MO_COR/FIRE_zones_MO_COR_ras_RCP45_0.tif" 
+DynamicFireRegionTable << Optional 
+>>Year FileName 
+10 "G:/Yan/LANDIS/Transects/MO_COR/FIRE_zones_MO_COR_ras_RCP45_0.tif"
+20 "G:/Yan/LANDIS/Transects/MO_COR/FIRE_zones_MO_COR_ras_RCP45_10.tif"
+50 "G:/Yan/LANDIS/Transects/MO_COR/FIRE_zones_MO_COR_ras_RCP45_40.tif"
+80 "G:/Yan/LANDIS/Transects/MO_COR/FIRE_zones_MO_COR_ras_RCP45_70.tif"
+FuelCurveTable 
+>> Ecoregion S1 S2 S3 S4 S5 
+ZONE_3_RCP45_0 10 20 50 70 120
+ZONE_8_RCP45_0 10 20 50 70 120
+ZONE_16_RCP45_0 10 20 50 70 120
+ZONE_3_RCP45_10 10 20 50 70 120
+ZONE_8_RCP45_10 10 20 50 70 120
+ZONE_16_RCP45_10 10 20 50 70 120
+ZONE_3_RCP45_40 10 20 50 70 120
+ZONE_8_RCP45_40 10 20 50 70 120
+ZONE_16_RCP45_40 10 20 50 70 120
+ZONE_3_RCP45_70 10 20 50 70 120
+ZONE_8_RCP45_70 10 20 50 70 120
+ZONE_16_RCP45_70 10 20 50 70 120
+WindCurveTable
+FireDamageTable
+>> Cohort Age FireSeverity -
+>> % of longevity FireTolerance
+>> -------------- -------------- anyway, aussumer que les feux tuent tout le monde ici; à modifier pour l'ouest
+20% -2
+50% -1
+85% 0
+100% 1
+MapNames fire/severity_{timestep}.tif 
+LogFile fire/log.csv 
+SummaryLogFile fire/summary-log.csv 

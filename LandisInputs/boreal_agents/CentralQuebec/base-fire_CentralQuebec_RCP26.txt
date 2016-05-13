@@ -1,0 +1,60 @@
+LandisData "Base Fire" 
+Timestep 10 
+>> Fire Region Parameters
+>> Fire
+>> Region Map Mean Min Max Ignition
+>> Name Code Size Size Size Prob k
+>> ---------------------------------------------
+ZONE_1_RCP26_0 2 6484 200 70283 8.69926125e-07 1108
+ZONE_5_RCP26_0 6 2073 200 46230 8.638969375e-07 31
+ZONE_7_RCP26_0 10 9861 200 263670 3.9367731875e-06 4
+ZONE_14_RCP26_0 14 6619 200 200040 3.510331625e-06 269
+ZONE_1_RCP26_10 18 8986 200 70283 2.37388301738175e-06 293
+ZONE_5_RCP26_10 22 2123 200 46230 9.71093715330125e-07 80
+ZONE_7_RCP26_10 26 18239 200 263670 6.5e-06 1
+ZONE_14_RCP26_10 30 6161 200 200040 2.392596100976e-06 424
+ZONE_1_RCP26_40 34 9559 200 70283 2.93198640141712e-06 223
+ZONE_5_RCP26_40 38 2029 200 46230 1.17282219520506e-06 75
+ZONE_7_RCP26_40 42 20218 200 263670 6.7e-06 1
+ZONE_14_RCP26_40 46 6232 200 200040 2.9672104461165e-06 338
+ZONE_1_RCP26_70 50 9763 200 70283 3.24958116885619e-06 197
+ZONE_5_RCP26_70 54 2277 200 46230 1.11543464664269e-06 145
+ZONE_7_RCP26_70 58 20608 200 263670 6.59315702509787e-06 1
+ZONE_14_RCP26_70 62 6089 200 200040 3.207817215338e-06 320
+InitialFireRegionsMap  "G:\YAN\LANDIS\CBFA\CentralQuebec\fire-regions_CentralQuebec_RCP26_0.tif" 
+DynamicFireRegionTable << Optional 
+>>Year FileName 
+10 "G:\YAN\LANDIS\CBFA\CentralQuebec\fire-regions_CentralQuebec_RCP26_0.tif"
+20 "G:\YAN\LANDIS\CBFA\CentralQuebec\fire-regions_CentralQuebec_RCP26_10.tif"
+50 "G:\YAN\LANDIS\CBFA\CentralQuebec\fire-regions_CentralQuebec_RCP26_40.tif"
+80 "G:\YAN\LANDIS\CBFA\CentralQuebec\fire-regions_CentralQuebec_RCP26_70.tif"
+FuelCurveTable 
+>> Ecoregion S5 S4 S3 S2 S1 
+ZONE_1_RCP45_0 -1 -1 -1 -1 10
+ZONE_5_RCP45_0 -1 -1 -1 -1 10
+ZONE_7_RCP45_0 -1 -1 -1 -1 10
+ZONE_14_RCP45_0 -1 -1 -1 -1 10
+ZONE_1_RCP45_10 -1 -1 -1 -1 10
+ZONE_5_RCP45_10 -1 -1 -1 -1 10
+ZONE_7_RCP45_10 -1 -1 -1 -1 10
+ZONE_14_RCP45_10 -1 -1 -1 -1 10
+ZONE_1_RCP45_40 -1 -1 -1 -1 10
+ZONE_5_RCP45_40 -1 -1 -1 -1 10
+ZONE_7_RCP45_40 -1 -1 -1 -1 10
+ZONE_14_RCP45_40 -1 -1 -1 -1 10
+ZONE_1_RCP45_70 -1 -1 -1 -1 10
+ZONE_5_RCP45_70 -1 -1 -1 -1 10
+ZONE_7_RCP45_70 -1 -1 -1 -1 10
+ZONE_14_RCP45_70 -1 -1 -1 -1 10
+WindCurveTable
+FireDamageTable
+>> Cohort Age FireSeverity -
+>> % of longevity FireTolerance
+>> -------------- -------------- anyway, aussumer que les feux tuent tout le monde ici; à modifier pour l'ouest
+20% -2
+50% -1
+85% 0
+100% 1
+MapNames fire/severity_{timestep}.tif 
+LogFile fire/log.csv 
+SummaryLogFile fire/summary-log.csv 
