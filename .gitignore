@@ -1,0 +1,13 @@
+.Rhistory
+[0-9]*
+AnimationBiomass
+Maritimes
+outputs
+serotinyMod
+temp
+*.Rmd
+*.html
+*~
+*.rds
+*.html
+.dropbox
