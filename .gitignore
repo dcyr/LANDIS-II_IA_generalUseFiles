@@ -1,6 +1,8 @@
 .Rhistory
 [0-9]*
 AnimationBiomass
+caribou
+CBFA
 Maritimes
 outputs
 serotinyMod
@@ -11,3 +13,4 @@ temp
 *.rds
 *.html
 .dropbox
+
