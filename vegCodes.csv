@@ -5,7 +5,7 @@ Code,commonName,scientificShort,scientificLong,Farrar1995.,lifeForm,LandisCode,r
 304,Subalpine fir,Abies lasiocarpa,Abies lasiocarpa (Hook.) Nutt.,86,MT-LT,ABIE.LAS,0,Abies_lasiocarpa,ABIE.SPP,#B6E665,0,0,0,0,0,1,0,0,1,1,0,0
 1403,Bigleaf maple,Acer macrophyllum,Acer macrophyllum Pursh,138,MT,ACER.MAC,NA,Acer_macrophyllum,,#4D0000,0,0,0,0,0,0,0,0,1,0,0,0
 1405,Red maple,Acer rubrum,Acer rubrum L.,140,MT,ACER.RUB,1,Acer_rubrum,ACER.SPP,#990000,1,1,0,0,1,0,1,1,0,0,1,1
-1401,Sugar maple,Acer saccharum,Acer saccharum Marsh.,134,MT-LT,ACER.SAH,1,Acer_saccharum,ACER.SPP,#E60000,1,1,0,0,1,0,1,1,0,0,1,1
+1401,Sugar maple,Acer saccharum,Acer saccharum Marsh.,134,MT-LT,ACER.SAH,1,Acer_saccharum,ACER.SPP,#E60000,1,1,0,0,1,0,1,1,0,0,1,0
 1802,Red alder,Alnus rubra,Alnus rubra Bong.,298,MT,ALNU.RUB,NA,Alnus_rubra,,#8B0000,0,0,0,0,0,0,0,0,1,0,0,0
 1301,Yellow birch,Betula alleghaniensis,Betula alleghaniensis Britt.,294,MT,BETU.ALL,1,Betula_alleghaniensis,,#4D3A0B,1,1,0,0,1,0,1,1,0,0,1,1
 1303,White birch,Betula papyrifera,Betula papyrifera Marsh.,284,ST-MT,BETU.PAP,1,Betula_papyrifera,,#E5AE20,1,1,1,1,1,1,1,1,1,1,1,1
@@ -32,7 +32,7 @@ Code,commonName,scientificShort,scientificLong,Farrar1995.,lifeForm,LandisCode,r
 1201,Trembling aspen,Populus tremuloides,Populus tremuloides Michx.,346,MT,POPU.TRE,0,Populus_tremuloides,,#00E600,1,1,1,1,1,1,1,1,1,1,1,1
 500,Douglas-fir,Pseudotsuga menziesii,"Pseudotsuga menziesii  var. menziesii(Mirb.) Franco,",110,VLT,PSEU.MEN,NA,Pseudotsuga_menziesii,,#8B3E2F,0,0,0,0,0,1,0,0,1,0,0,0
 2108,Red oak,Quercus rubra,Quercus rubra L.,248,MT,QUER.RUB,1,Quercus_rubra,,#8B2500,1,0,0,0,1,0,1,0,0,0,1,0
-701,Eastern white-cedar,Thuja occidentalis,Thuja occidentalis L.,26,ST,THUJ.SPP.ALL,1,Thuja_occidentalis,,#E5C89C,1,1,1,0,1,0,1,1,0,0,1,1
+701,Eastern white-cedar,Thuja occidentalis,Thuja occidentalis L.,26,ST,THUJ.SPP.ALL,1,Thuja_occidentalis,,#E5C89C,1,1,1,0,1,0,1,1,0,0,1,0
 702,Western redcedar,Thuja plicata,Thuja plicata Donn ex D. Don,24,VLT,THUJ.PLI,0,Thuja_plicata,,#4D4334,0,0,0,0,0,1,0,0,1,0,0,0
 401,Eastern hemlock,Tsuga canadensis,Tsuga canadensis (L.) Carriﾊre,120,MT,TSUG.CAN,0,Tsuga_canadensis,,#4D3200,1,1,0,0,1,0,1,0,0,0,1,0
 402,Western hemlock,Tsuga heterophylla,Tsuga heterophylla (Raf.) Sarg.,116,VLT,TSUG.HET,0,Tsuga_heterophylla,,#996300,0,0,0,0,0,1,0,0,1,1,0,0
