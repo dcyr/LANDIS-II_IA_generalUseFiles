@@ -1,0 +1,14 @@
+LandisData "Output Biomass-by-Age" 
+Timestep  10 
+MapNames output/biomassAge/{species}_{ageclass}_{timestep}.tif 
+Species ABIE.BAL ageclass1(0-10) ageclass2(10-50) ageclass3(50-90) ageclass4(>90) 
+BETU.PAP ageclass1(0-10) ageclass2(10-50) ageclass3(50-90) ageclass4(>90) 
+LARI.LAR ageclass1(0-10) ageclass2(10-50) ageclass3(50-90) ageclass4(>90) 
+PICE.GLA ageclass1(0-10) ageclass2(10-50) ageclass3(50-90) ageclass4(>90) 
+PICE.MAR ageclass1(0-10) ageclass2(10-50) ageclass3(50-90) ageclass4(>90) 
+PINU.BAN ageclass1(0-10) ageclass2(10-50) ageclass3(50-90) ageclass4(>90) 
+PINU.RES ageclass1(0-10) ageclass2(10-50) ageclass3(50-90) ageclass4(>90) 
+PINU.STR ageclass1(0-10) ageclass2(10-50) ageclass3(50-90) ageclass4(>90) 
+POPU.BAL ageclass1(0-10) ageclass2(10-50) ageclass3(50-90) ageclass4(>90) 
+POPU.TRE ageclass1(0-10) ageclass2(10-50) ageclass3(50-90) ageclass4(>90) 
+THUJ.SPP.ALL ageclass1(0-10) ageclass2(10-50) ageclass3(50-90) ageclass4(>90) 
