@@ -22,7 +22,7 @@ Code,commonName,scientificShort,scientificLong,Farrar1995.,lifeForm,LandisCode,r
 106,Sitka spruce,Picea sitchensis,Picea sitchensis (Bong.) Carriﾊre,98,VLT,PICE.SIT,0,Picea_sitchensis,,#E6721F,0,0,0,0,0,0,0,0,1,0,0,0,0
 206,Whitebark pine,Pinus albicaulis,Pinus albicaulis Engelm.,48,Sh-ST,PINU.ALB,0,Pinus_albicaulis,,#76B3DE,0,0,0,0,0,0,0,0,0,0,0,0,0
 203,Jack pine,Pinus banksiana,Pinus banksiana Lamb.,58,ST,PINU.BAN,0,Pinus_banksiana,,#6BA2C9,1,1,1,1,1,0,1,1,0,0,1,1,1
-204,Lodgepole pine,Pinus contorta,Pinus contorta Dougl. ex Loud. var. latifolia Engelm.,60,MT,PINU.CON.LAT,0,Pinus_contorta,,#5581A0,0,0,0,0,0,1,0,0,0,1,0,0,1
+204,Lodgepole pine,Pinus contorta,Pinus contorta Dougl. ex Loud. var. latifolia Engelm.,60,MT,PINU.CON.LAT,0,Pinus_contorta,,#5581A0,0,0,0,0,0,1,0,0,0,1,0,0,0
 208,Ponderosa pine,Pinus ponderosa,Pinus ponderosa P. Laws. ex C. Laws.,52,LT,PINU.PON,0,Pinus_ponderosa,,#3F5F76,0,0,0,0,0,1,0,0,0,0,0,0,0
 209,Red pine,Pinus resinosa,Pinus resinosa Ait.,56,MT,PINU.RES,0,Pinus_resinosa,,#344E61,1,1,1,0,1,0,1,1,0,0,1,1,0
 202,Eastern white pine,Pinus strobus,Pinus strobus L.,44,MT,PINU.STR,0,Pinus_strobus,,#283E4C,1,1,1,0,1,0,1,1,0,0,1,1,0
