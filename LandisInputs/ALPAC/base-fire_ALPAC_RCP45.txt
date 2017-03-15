@@ -1,0 +1,52 @@
+LandisData "Base Fire" 
+Timestep  10 
+>> Fire Region Parameters
+>> Fire
+>> Region Map Mean Min Max Ignition
+>> Name Code Size Size Size Prob k
+>> ---------------------------------------------
+ZONE_2_RCP45_0 3 5262 200 667470 9e-06 1
+ZONE_6_RCP45_0 11 11513 200 303202 1.8e-05 1
+ZONE_15_RCP45_0 15 4809 200 162520 1.6065551875e-06 5
+ZONE_2_RCP45_10 19 19979 200 667470 1.6e-05 1
+ZONE_6_RCP45_10 27 11020 200 303202 4.5e-05 1
+ZONE_15_RCP45_10 31 5385 200 162520 3.07033672810305e-06 40
+ZONE_2_RCP45_40 35 24781 200 667470 2e-05 1
+ZONE_6_RCP45_40 43 11408 200 303202 7e-05 1
+ZONE_15_RCP45_40 47 5404 200 162520 3.93361808842563e-06 50
+ZONE_2_RCP45_70 51 26935 200 667470 2e-05 1
+ZONE_6_RCP45_70 59 11554 200 303202 7e-05 1
+ZONE_15_RCP45_70 63 5527 200 162520 3.98154047965843e-06 50
+InitialFireRegionsMap  "G:\YAN\LANDIS\CBFA\ALPAC\fire-regions_ALPAC_RCP45_0.tif" 
+DynamicFireRegionTable << Optional 
+>>Year FileName 
+5 "G:\YAN\LANDIS\CBFA\ALPAC\fire-regions_ALPAC_RCP45_0.tif"
+15 "G:\YAN\LANDIS\CBFA\ALPAC\fire-regions_ALPAC_RCP45_10.tif"
+45 "G:\YAN\LANDIS\CBFA\ALPAC\fire-regions_ALPAC_RCP45_40.tif"
+75 "G:\YAN\LANDIS\CBFA\ALPAC\fire-regions_ALPAC_RCP45_70.tif"
+FuelCurveTable 
+>> Ecoregion S5 S4 S3 S2 S1 
+ZONE_2_RCP45_0 -1 -1 -1 -1 10
+ZONE_6_RCP45_0 -1 -1 -1 -1 10
+ZONE_15_RCP45_0 -1 -1 -1 -1 10
+ZONE_2_RCP45_10 -1 -1 -1 -1 10
+ZONE_6_RCP45_10 -1 -1 -1 -1 10
+ZONE_15_RCP45_10 -1 -1 -1 -1 10
+ZONE_2_RCP45_40 -1 -1 -1 -1 10
+ZONE_6_RCP45_40 -1 -1 -1 -1 10
+ZONE_15_RCP45_40 -1 -1 -1 -1 10
+ZONE_2_RCP45_70 -1 -1 -1 -1 10
+ZONE_6_RCP45_70 -1 -1 -1 -1 10
+ZONE_15_RCP45_70 -1 -1 -1 -1 10
+WindCurveTable
+FireDamageTable
+>> Cohort Age FireSeverity -
+>> % of longevity FireTolerance
+>> -------------- -------------- anyway, aussumer que les feux tuent tout le monde ici; à modifier pour l'ouest
+20% -2
+50% -1
+85% 0
+100% 1
+MapNames fire/severity_{timestep}.tif 
+LogFile fire/log.csv 
+SummaryLogFile fire/summary-log.csv 
