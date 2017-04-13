@@ -1,5 +1,6 @@
 LandisData "Dynamic Input Data"
->>yearlandtypespeciesprobEstmaxANPPmaxB
+
+>>	year	landtype	species	probEst	maxANPP	maxB
 0	579_1	BETU.PAP	0.838	546	4411
 0	579_1	LARI.LAR	0.651	53	241
 0	579_1	PICE.GLA	0.692	954	11783
