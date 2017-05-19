@@ -1,8 +1,8 @@
 LandisData "Biomass Succession"
 Timestep 10 
 SeedingAlgorithm WardSeedDispersal
-InitialCommunities "G:\YAN\LANDIS\Quebec\SudStL\initial-communities_SudStL.dat" 
-InitialCommunitiesMap "G:\YAN\LANDIS\Quebec\SudStL\initial-communities_SudStL.tif" 
+InitialCommunities "../initial-communities.dat"
+InitialCommunitiesMap "../initial-communities.tif" 
 CalibrateMode no
 SpinupMortalityFraction 0.001 
 >> **********************
@@ -95,5 +95,5 @@ EcoregionParameters
 483_3 600
 483_1 600
 483_4 600
-DynamicInputFile "G:\YAN\LANDIS\Quebec\SudStL\biomass-succession-dynamic-inputs_SudStL_baseline.txt" 
-AgeOnlyDisturbances:BiomassParameters "C:\YAN\LANDIS\Landis-II\AODist.txt"  
+DynamicInputFile biomass-succession-dynamic-inputs.txt
+AgeOnlyDisturbances:BiomassParameters "../age-only-disturbances.txt"  
