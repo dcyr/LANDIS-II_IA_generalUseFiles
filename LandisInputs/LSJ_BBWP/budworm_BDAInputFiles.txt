@@ -1,0 +1,73 @@
+﻿BDAAgentName		budworm
+BDPCalibrator		1		<< integer, parameter "a" in the BDP equation (#2 in user Guide)
+SRDMode			mean		<< max or mean, SRD score based on the mean or max SRD
+
+>>-------- Regional Outbreak Inputs -------------
+TimeSinceLastEpidemic	20		<< years
+TemporalType 		pulse	<< pulse, variablepulse, or continuous
+RandomFunction		RFuniform	<< RFnormal or RFuniform, function used to determine interval between outbreaks
+RandomParameter1	32 		<< avg time interval between obks; Robert et al.2012 if RFnormal, or max interval if RFuniform
+RandomParameter2	32		<< std dev. of interval between obks; Robert et al.2012 if RFnormal, or min interval if RFuniform
+MinROS			0		<< regional obk severity; min. severity (without regards to forest susceptibility or vulnerability)
+MaxROS			3		<< maximum potential severity
+
+>>-------- Dispersal Inputs ----------------------
+Dispersal		no		<< yes or no
+DispersalRate		50000		<< ½ de 50km/year - from Royama 1984, it's the min. avg SBW moths dispersal dist.(50-100km)
+EpidemicThresh		0.5 << minimum BDP required to start an epicenter | originally=0.5
+InitialEpicenterNum	5 << originally of 0
+OutbreakEpicenterCoeff	0.01		<< "The number of new epicenters (within outbreak zone)
+					<< will decrease with increasing c"
+SeedEpicenter		yes		<< yes or no
+SeedEpicenterCoeff	10		<< param. "c",eq.3(user guide);# of new epicenters, decreases with increasing c; originally=0.01
+DispersalTemplate	MaxRadius	<< MaxRadius, 4N, 8N, 12N, or 24N; 8N=all cells (one-cell radius), 24N=two-cell radius
+>>InitialCondition	none		<< map or none
+
+>>-------- Neighborhood Resource Inputs -----------
+NeighborFlag	yes			<< yes or no (determines whether NRD is used in calculating BDP)
+NeighborSpeedUp	none			<< none, 2x, 3x, or 4x (will use every cell in neighborhood)
+NeighborRadius	1000			<< meters
+NeighborShape	uniform			<< uniform, linear, or gaussian; weight of neighborhood cells vs. distance to site
+NeighborWeight	0.5			<<  0.01 - 100; parameter "NW" in eq.2; 0.01:NRD weight=0% of SRD,1:50%,10:91%,100=100% of SRD;
+
+>>-------- Budworm Model Inputs (Budworm BDA additional section) -----------
+>> SV values are compared to BDP to assign the obk an intensity class, then VulnProb takes over to assign mortality prob.
+>> This is where you determine how severely impacted the forest will be given a ROS=3, requires calibration!
+Class2_SV 0.33		<< BDP value threshold to reach severity class 2
+Class3_SV 0.67 		<< BDP value threshold to reach severity class 3
+BFAgeCutoff  70 	<< age over which all fir cohorts are killed, below that, VulnProb takes over; 0 to kill all cohorts
+
+>>EcoregionModifiers	
+>>Ecoregion	Modifier; -1 to 1; see eq.1; -1 reduces SRD by 100%, 1 increases SRD by 100%; constant through simulation 
+
+
+DisturbanceModifiers
+>>Type	Duration	Value;	-1 to 1; impact decreases with time since disturbance	
+>>Wind	0		0.00
+Fire	0		0.00
+
+BDASpeciesParameters		<< SRD=probability of defoliation, VRD=probability of mortality from defoliation.
+>> SRD values determine intensity of defoliation (BDP) through SV, whereas intensity class(vuln.) determined from the relative
+>> scale of SV thresholds -
+>>                                        		| Susceptibility  								 |
+>>Species  MinorHost  	2ndHost   	MajorHost	| Class3			Class2			Class1		 | 	CFS
+>>Name     Age	SRDProb Age	SRDProb	Age	SRDProb	| Age	VulnProb	Age	VulnProb	Age	VulnProb | 	Conifer?
+>>adapted BDA values
+ABIE.BAL 0 0.25 20 0.5 40 1 0 0 20 0.42 50 0.85 yes
+PICE.GLA 0 0.18 20 0.36 40 0.72 0 0 20 0.15 50 0.42 yes
+PICE.RUB 0 0.1 20 0.2 40 0.41 20 0.13 50 0.36 999 1 yes
+PICE.MAR 0 0.07 20 0.14 40 0.28 20 0.13 50 0.36 999 1 yes
+>>IgnoredSpecies
+>>ACER.RUB
+>>ACER.SAH
+>>BETU.ALL
+>>BETU.PAP
+>>FAGU.GRA
+>>LARI.LAR
+>>PINU.BAN
+>>PINU.RES
+>>PINU.STR
+>>POPU.TRE
+>>QUER.RUB
+>>THUJ.SPP.ALL
+>>TSUG.CAN
