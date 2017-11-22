@@ -142,5 +142,5 @@ EcoregionParameters
 441_3 600
 441_4 600
 441_5 600
-DynamicInputFile "D:\Tremblayjun\R\Landis\LSJ\biomass-succession-dynamic-inputs_LSJ_RCP26_5yrsTS.txt" 
+DynamicInputFile "D:\Tremblayjun\R\Landis\LSJ\biomass-succession-dynamic-inputs_LSJ_RCP26_5yrsTS_BiasCorrected.txt" 
 AgeOnlyDisturbances:BiomassParameters "D:\Tremblayjun\R\Landis\AODist.txt"  
