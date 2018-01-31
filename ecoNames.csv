@@ -1,18 +1,13 @@
-name,code,Fire,Harvesting,Spruce Budworm,note
-Acadian,Acadian,1,1,1,Side project
-Atlantic Maritime,AM,1,1,1,Forest Change (IA-C4)
-Boreal Cordillera,BC,1,1,0,Forest Change (IA-C4)
-Boreal Plain,BP,1,1,0,Forest Change (IA-C4)
-Eastern Boreal Shield,BSE,1,1,1,Forest Change (IA-C4)
-Montane Cordillera,MC,1,1,1,Forest Change (IA-C4)
-Pacific Maritime,PM,1,1,0,Forest Change (IA-C4)
-Taiga Plain,TP,1,1,0,Forest Change (IA-C4)
-Western Boreal Shield,BSW,1,1,1,Forest Change (IA-C4)
-Lac Saint-Jean,LSJ,1,1,1,CBFA project
-Western Ontario,WestON,1,1,1,CBFA project
-BSE (Boreal only),BSEmod,1,1,1,Forest Change (IA-C4)
-Sud Saint-Laurent,SudStL,1,1,1,CBFA project
-North Shore,NorthShore,1,1,1,
-ALPAC,ALPAC,,,,
-Québec – New Brunswick,QcNb,1,1,1,
-Central Quebec,QcCentral,1,1,1,
+name,code,Fire,Harvesting,Spruce Budworm
+Acadian,Acadian,1,1,1
+Atlantic Maritime,AM,1,1,1
+Boreal Plain,BP,1,1,0
+Eastern Boreal Shield,BSE,1,1,1
+Western Boreal Shield,BSW,1,1,1
+Lac Saint-Jean,LSJ,1,1,1
+BSE (Boreal only),BSEmod,1,1,1
+Sud Saint-Laurent,SudStL,1,1,1
+North Shore,NorthShore,1,1,1
+ALPAC,ALPAC,1,1,0
+Quebec - New Brunswick,QcNb,1,1,1
+Central Quebec,QcCentral,1,1,1
